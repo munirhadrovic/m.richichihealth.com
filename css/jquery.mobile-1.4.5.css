@@ -1102,7 +1102,7 @@ html body .ui-group-theme-b .ui-bar-inherit {
 	background-color: 			#525252 /*{b-bar-background-color}*/;
 	border-color:	 		#1b1b1b /*{b-bar-border}*/;
 	color: 					#fff /*{b-bar-color}*/;
-	text-shadow: 0 /*{b-bar-shadow-x}*/ 1px /*{b-bar-shadow-y}*/ 0 /*{b-bar-shadow-radius}*/ 	#111 /*{b-bar-shadow-color}*/;
+	text-shadow: none !important;
 	font-weight: bold;
 }
 .ui-bar-b {
@@ -1144,7 +1144,7 @@ html .ui-panel-page-container-b {
 html .ui-bar-b a,
 html .ui-body-b a,
 html body .ui-group-theme-b a {
-	color: #22aadd /*{b-link-color}*/;
+	color: #000 /*{b-link-color}*/;
 	font-weight: normal;
 }
 .ui-page-theme-b a:visited,
@@ -1163,7 +1163,7 @@ html body .ui-group-theme-b a:hover {
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
 html body .ui-group-theme-b a:active {
-	color: #0088bb /*{b-link-active}*/;
+	color: #000 /*{b-link-active}*/;
 }
 /* Button up */
 .ui-page-theme-b .ui-btn,
